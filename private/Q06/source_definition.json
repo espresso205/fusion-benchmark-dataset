@@ -1,0 +1,202 @@
+{
+  "taskId": "Q06",
+  "titleEn": "Rational-spline cam plate with asymmetric apertures",
+  "titleZh": "有理样条轮廓与非对称孔槽板",
+  "family": "rational_spline_plate",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "spline_profile",
+    "z": -7,
+    "height": 9,
+    "poles": [
+      [
+        -60,
+        0
+      ],
+      [
+        -40,
+        60
+      ],
+      [
+        30,
+        54
+      ],
+      [
+        60,
+        0
+      ]
+    ],
+    "weights": [
+      1,
+      0.8,
+      1.25,
+      1
+    ],
+    "returnPoints": [
+      [
+        52,
+        -24
+      ],
+      [
+        10,
+        -32
+      ],
+      [
+        -38,
+        -24
+      ]
+    ]
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -40,
+          3,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -22,
+          8,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          12,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          22,
+          10,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          42,
+          3,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -27,
+          -12,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          -15,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "asymmetric through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          28,
+          -10,
+          -8
+        ],
+        "radius": 3,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "first through capsule",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          -18,
+          -1
+        ],
+        "b": [
+          0,
+          -1
+        ],
+        "radius": 3,
+        "z": -8,
+        "height": 11
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "second through capsule",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          13,
+          -1
+        ],
+        "b": [
+          30,
+          -1
+        ],
+        "radius": 2.5,
+        "z": -8,
+        "height": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "provenance": "post-freeze automatic GT BRep-derived analytic diameter/count and axis-plane-span probes; NOT original independent drawing annotations; exploratory adaptation",
+  "gt_sha256": "595b3125a957afdf6a85e4ed23344ad97a526a080086e13aeb2fecff4bf9a227",
+  "items": [
+    {
+      "id": "gt_plane_extent_x",
+      "type": "plane_pair",
+      "axis": "x",
+      "nominal": 140.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_y",
+      "type": "plane_pair",
+      "axis": "y",
+      "nominal": 80.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_z",
+      "type": "plane_pair",
+      "axis": "z",
+      "nominal": 25.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_cylinder_diameter_6.0",
+      "type": "cylinder",
+      "nominal": 6.0,
+      "tol": 0.01,
+      "count": 8
+    },
+    {
+      "id": "gt_cylinder_diameter_7.0",
+      "type": "cylinder",
+      "nominal": 7.0,
+      "tol": 0.01,
+      "count": 4
+    },
+    {
+      "id": "gt_cylinder_diameter_11.0",
+      "type": "cylinder",
+      "nominal": 11.0,
+      "tol": 0.01,
+      "count": 4
+    },
+    {
+      "id": "gt_cylinder_diameter_12.0",
+      "type": "cylinder",
+      "nominal": 12.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_36.0",
+      "type": "cylinder",
+      "nominal": 36.0,
+      "tol": 0.01,
+      "count": 1
+    }
+  ],
+  "sections": [
+    {
+      "id": "gt_bbox_x_0.25",
+      "axis": "x",
+      "offset": -35.0
+    },
+    {
+      "id": "gt_bbox_x_0.5",
+      "axis": "x",
+      "offset": 0.0
+    },
+    {
+      "id": "gt_bbox_x_0.75",
+      "axis": "x",
+      "offset": 35.0
+    },
+    {
+      "id": "gt_bbox_y_0.25",
+      "axis": "y",
+      "offset": -20.0
+    },
+    {
+      "id": "gt_bbox_y_0.5",
+      "axis": "y",
+      "offset": 0.0
+    },
+    {
+      "id": "gt_bbox_y_0.75",
+      "axis": "y",
+      "offset": 20.0
+    },
+    {
+      "id": "gt_bbox_z_0.25",
+      "axis": "z",
+      "offset": 11.25
+    },
+    {
+      "id": "gt_bbox_z_0.5",
+      "axis": "z",
+      "offset": 17.5
+    },
+    {
+      "id": "gt_bbox_z_0.75",
+      "axis": "z",
+      "offset": 23.75
+    }
+  ],
+  "bbox_mm": [
+    -70.0,
+    -40.0,
+    5.0,
+    70.0,
+    40.0,
+    30.0
+  ]
+}

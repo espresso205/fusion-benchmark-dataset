@@ -1,0 +1,89 @@
+{
+  "provenance": "post-freeze automatic GT BRep-derived analytic diameter/count and axis-plane-span probes; NOT original independent drawing annotations; exploratory adaptation",
+  "gt_sha256": "a257b78b686183602aba1a36f11a37e325d9ed9692fa07139d001b6ca6d5eafb",
+  "items": [
+    {
+      "id": "gt_plane_extent_y",
+      "type": "plane_pair",
+      "axis": "y",
+      "nominal": 6.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_z",
+      "type": "plane_pair",
+      "axis": "z",
+      "nominal": 9.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_cylinder_diameter_5.0",
+      "type": "cylinder",
+      "nominal": 5.0,
+      "tol": 0.01,
+      "count": 2
+    },
+    {
+      "id": "gt_cylinder_diameter_6.0",
+      "type": "cylinder",
+      "nominal": 6.0,
+      "tol": 0.01,
+      "count": 10
+    }
+  ],
+  "sections": [
+    {
+      "id": "gt_bbox_x_0.25",
+      "axis": "x",
+      "offset": -30.00000005
+    },
+    {
+      "id": "gt_bbox_x_0.5",
+      "axis": "x",
+      "offset": 0.0
+    },
+    {
+      "id": "gt_bbox_x_0.75",
+      "axis": "x",
+      "offset": 30.000000050000004
+    },
+    {
+      "id": "gt_bbox_y_0.25",
+      "axis": "y",
+      "offset": -13.371138206527618
+    },
+    {
+      "id": "gt_bbox_y_0.5",
+      "axis": "y",
+      "offset": 5.257723686948694
+    },
+    {
+      "id": "gt_bbox_y_0.75",
+      "axis": "y",
+      "offset": 23.886585580425006
+    },
+    {
+      "id": "gt_bbox_z_0.25",
+      "axis": "z",
+      "offset": -4.750000050000001
+    },
+    {
+      "id": "gt_bbox_z_0.5",
+      "axis": "z",
+      "offset": -2.500000000000001
+    },
+    {
+      "id": "gt_bbox_z_0.75",
+      "axis": "z",
+      "offset": -0.2499999500000012
+    }
+  ],
+  "bbox_mm": [
+    -60.0000001,
+    -32.00000010000393,
+    -7.000000100000001,
+    60.0000001,
+    42.51544747390131,
+    2.0000001
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "taskId": "Q01",
+  "titleEn": "Multidepth fixture plate with central capsule pocket",
+  "titleZh": "多深度夹具板",
+  "family": "fixture_plate",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "box",
+    "origin": [
+      -60,
+      -45,
+      6
+    ],
+    "size": [
+      120,
+      90,
+      18
+    ]
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -42,
+          -28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -42,
+          28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          -28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          42,
+          -28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          42,
+          28,
+          5
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -42,
+          -28,
+          18
+        ],
+        "radius": 6,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -42,
+          28,
+          18
+        ],
+        "radius": 6,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          42,
+          -28,
+          18
+        ],
+        "radius": 6,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          42,
+          28,
+          18
+        ],
+        "radius": 6,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "blind locating bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -34,
+          0,
+          12
+        ],
+        "radius": 4,
+        "height": 13
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "blind locating bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          34,
+          0,
+          12
+        ],
+        "radius": 4,
+        "height": 13
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "blind central capsule pocket",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          -12,
+          0
+        ],
+        "b": [
+          12,
+          0
+        ],
+        "radius": 4,
+        "z": 14,
+        "height": 11
+      }
+    }
+  ]
+}

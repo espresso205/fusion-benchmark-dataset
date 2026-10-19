@@ -1,0 +1,273 @@
+{
+  "taskId": "Q10",
+  "titleEn": "Three-level carrier with central boss and unequal pockets",
+  "titleZh": "三级凸台载板与异深度凹槽",
+  "family": "stepped_carrier",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "box",
+    "origin": [
+      -70,
+      -40,
+      5
+    ],
+    "size": [
+      140,
+      80,
+      8
+    ]
+  },
+  "operations": [
+    {
+      "action": "fuse",
+      "feature": "raised rectangular deck",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -48,
+          -28,
+          13
+        ],
+        "size": [
+          96,
+          56,
+          9
+        ]
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "raised central boss",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          0,
+          22
+        ],
+        "radius": 18,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "base mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -58,
+          -28,
+          4
+        ],
+        "radius": 3.5,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "base mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -58,
+          28,
+          4
+        ],
+        "radius": 3.5,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "base mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          58,
+          -28,
+          4
+        ],
+        "radius": 3.5,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "base mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          58,
+          28,
+          4
+        ],
+        "radius": 3.5,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -35,
+          -16,
+          4
+        ],
+        "radius": 3,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -35,
+          16,
+          4
+        ],
+        "radius": 3,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          35,
+          -16,
+          4
+        ],
+        "radius": 3,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          35,
+          16,
+          4
+        ],
+        "radius": 3,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -35,
+          -16,
+          16
+        ],
+        "radius": 5.5,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -35,
+          16,
+          16
+        ],
+        "radius": 5.5,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          35,
+          -16,
+          16
+        ],
+        "radius": 5.5,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "deck counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          35,
+          16,
+          16
+        ],
+        "radius": 5.5,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "boss through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          0,
+          4
+        ],
+        "radius": 6,
+        "height": 27
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "left blind slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          -37,
+          0
+        ],
+        "b": [
+          -25,
+          0
+        ],
+        "radius": 3,
+        "z": 17,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "right shallower blind slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          25,
+          0
+        ],
+        "b": [
+          37,
+          0
+        ],
+        "radius": 3,
+        "z": 19,
+        "height": 5
+      }
+    }
+  ]
+}

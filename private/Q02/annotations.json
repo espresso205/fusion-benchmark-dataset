@@ -1,0 +1,103 @@
+{
+  "provenance": "post-freeze automatic GT BRep-derived analytic diameter/count and axis-plane-span probes; NOT original independent drawing annotations; exploratory adaptation",
+  "gt_sha256": "ccc1d3e4d30140cf51ee4aa07652574a1af8d9343482be44fa72649823e810cc",
+  "items": [
+    {
+      "id": "gt_plane_extent_x",
+      "type": "plane_pair",
+      "axis": "x",
+      "nominal": 110.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_y",
+      "type": "plane_pair",
+      "axis": "y",
+      "nominal": 96.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_z",
+      "type": "plane_pair",
+      "axis": "z",
+      "nominal": 16.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_cylinder_diameter_6.0",
+      "type": "cylinder",
+      "nominal": 6.0,
+      "tol": 0.01,
+      "count": 8
+    },
+    {
+      "id": "gt_cylinder_diameter_8.0",
+      "type": "cylinder",
+      "nominal": 8.0,
+      "tol": 0.01,
+      "count": 2
+    },
+    {
+      "id": "gt_cylinder_diameter_10.0",
+      "type": "cylinder",
+      "nominal": 10.0,
+      "tol": 0.01,
+      "count": 4
+    }
+  ],
+  "sections": [
+    {
+      "id": "gt_bbox_x_0.25",
+      "axis": "x",
+      "offset": 27.5
+    },
+    {
+      "id": "gt_bbox_x_0.5",
+      "axis": "x",
+      "offset": 55.0
+    },
+    {
+      "id": "gt_bbox_x_0.75",
+      "axis": "x",
+      "offset": 82.5
+    },
+    {
+      "id": "gt_bbox_y_0.25",
+      "axis": "y",
+      "offset": 24.0
+    },
+    {
+      "id": "gt_bbox_y_0.5",
+      "axis": "y",
+      "offset": 48.0
+    },
+    {
+      "id": "gt_bbox_y_0.75",
+      "axis": "y",
+      "offset": 72.0
+    },
+    {
+      "id": "gt_bbox_z_0.25",
+      "axis": "z",
+      "offset": -1.0
+    },
+    {
+      "id": "gt_bbox_z_0.5",
+      "axis": "z",
+      "offset": 3.0
+    },
+    {
+      "id": "gt_bbox_z_0.75",
+      "axis": "z",
+      "offset": 7.0
+    }
+  ],
+  "bbox_mm": [
+    0.0,
+    0.0,
+    -5.0,
+    110.0,
+    96.0,
+    11.0
+  ]
+}

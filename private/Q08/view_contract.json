@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "view_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "view_direction_convention": "toward_observer",
+  "camera_look_direction": [
+    -0.0,
+    -0.0,
+    -1.0
+  ],
+  "up_direction": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "right_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "sketch_plane": "XY",
+  "extrusion_axis": "Z",
+  "unit": "mm",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "sketch_depth": -11.0,
+  "depth_range": [
+    -11.0,
+    11.0
+  ],
+  "allow_translation": false,
+  "allow_rotation": false,
+  "allow_mirror": false,
+  "allow_scale": false,
+  "world_mapping": "world = U * drawing_x + V * drawing_y + N * depth",
+  "model_class": "piecewise_uniform_sections",
+  "mode": "standard"
+}

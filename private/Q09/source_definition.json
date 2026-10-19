@@ -1,0 +1,249 @@
+{
+  "taskId": "Q09",
+  "titleEn": "Octagonal window adapter with slotted mounts",
+  "titleZh": "八角开窗转接板与长槽安装孔",
+  "family": "octagonal_adapter",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "polygon",
+    "points": [
+      [
+        -42,
+        -52
+      ],
+      [
+        42,
+        -52
+      ],
+      [
+        62,
+        -32
+      ],
+      [
+        62,
+        32
+      ],
+      [
+        42,
+        52
+      ],
+      [
+        -42,
+        52
+      ],
+      [
+        -62,
+        32
+      ],
+      [
+        -62,
+        -32
+      ]
+    ],
+    "z": 2,
+    "height": 15
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "rectangular central opening",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -16,
+          -12,
+          1
+        ],
+        "size": [
+          32,
+          24,
+          17
+        ]
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "long through mounting slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          -42,
+          -18
+        ],
+        "b": [
+          -42,
+          18
+        ],
+        "radius": 4,
+        "z": 1,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "long through mounting slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          42,
+          -18
+        ],
+        "b": [
+          42,
+          18
+        ],
+        "radius": 4,
+        "z": 1,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -25,
+          -36,
+          1
+        ],
+        "radius": 3.5,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -25,
+          36,
+          1
+        ],
+        "radius": 3.5,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          25,
+          -36,
+          1
+        ],
+        "radius": 3.5,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          25,
+          36,
+          1
+        ],
+        "radius": 3.5,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -25,
+          -36,
+          10
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -25,
+          36,
+          10
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          25,
+          -36,
+          10
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "adapter counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          25,
+          36,
+          10
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "opposed rectangular blind pocket",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -8,
+          -34,
+          8
+        ],
+        "size": [
+          16,
+          8,
+          10
+        ]
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "opposed rectangular blind pocket",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -8,
+          26,
+          8
+        ],
+        "size": [
+          16,
+          8,
+          10
+        ]
+      }
+    }
+  ]
+}

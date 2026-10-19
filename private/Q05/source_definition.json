@@ -1,0 +1,187 @@
+{
+  "taskId": "Q05",
+  "titleEn": "Elliptical tooling plate with three distinct slots",
+  "titleZh": "椭圆外形多孔异向槽板",
+  "family": "elliptical_plate",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "ellipse",
+    "origin": [
+      0,
+      0,
+      11
+    ],
+    "majorRadius": 68,
+    "minorRadius": 42,
+    "height": 8
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -48,
+          -20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -48,
+          20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -22,
+          -20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -22,
+          20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          22,
+          -20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          22,
+          20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          48,
+          -20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          48,
+          20,
+          10
+        ],
+        "radius": 3,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "long horizontal through slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          -22,
+          0
+        ],
+        "b": [
+          22,
+          0
+        ],
+        "radius": 4,
+        "z": 10,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "vertical through slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          0,
+          -28
+        ],
+        "b": [
+          0,
+          -18
+        ],
+        "radius": 3,
+        "z": 10,
+        "height": 10
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "rectangular through key",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -7,
+          20,
+          10
+        ],
+        "size": [
+          14,
+          7,
+          10
+        ]
+      }
+    }
+  ]
+}

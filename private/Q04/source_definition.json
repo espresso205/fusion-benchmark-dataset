@@ -1,0 +1,277 @@
+{
+  "taskId": "Q04",
+  "titleEn": "Ten-stage external and eight-stage internal sleeve",
+  "titleZh": "内外阶梯锥段组合套筒",
+  "family": "coaxial_sleeve",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "cylinder",
+    "origin": [
+      23,
+      -17,
+      -8
+    ],
+    "radius": 28,
+    "topRadius": 28,
+    "height": 6
+  },
+  "operations": [
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          -2
+        ],
+        "radius": 28,
+        "topRadius": 23,
+        "height": 6
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          4
+        ],
+        "radius": 23,
+        "topRadius": 23,
+        "height": 8
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          12
+        ],
+        "radius": 30,
+        "topRadius": 30,
+        "height": 4
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          16
+        ],
+        "radius": 30,
+        "topRadius": 24,
+        "height": 5
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          21
+        ],
+        "radius": 24,
+        "topRadius": 24,
+        "height": 8
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          29
+        ],
+        "radius": 24,
+        "topRadius": 18,
+        "height": 6
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          35
+        ],
+        "radius": 18,
+        "topRadius": 18,
+        "height": 6
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          41
+        ],
+        "radius": 22,
+        "topRadius": 22,
+        "height": 5
+      }
+    },
+    {
+      "action": "fuse",
+      "feature": "outer cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          46
+        ],
+        "radius": 22,
+        "topRadius": 19,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          -8
+        ],
+        "radius": 10,
+        "topRadius": 10,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          0
+        ],
+        "radius": 10,
+        "topRadius": 13,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          7
+        ],
+        "radius": 13,
+        "topRadius": 13,
+        "height": 9
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          16
+        ],
+        "radius": 11,
+        "topRadius": 11,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          23
+        ],
+        "radius": 11,
+        "topRadius": 8,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          31
+        ],
+        "radius": 8,
+        "topRadius": 8,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          23,
+          -17,
+          38
+        ],
+        "radius": 10,
+        "topRadius": 10,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "inner cylindrical/conical section",
+      "shape": {
+        "kind": "cone",
+        "origin": [
+          23,
+          -17,
+          45
+        ],
+        "radius": 10,
+        "topRadius": 12,
+        "height": 8
+      }
+    }
+  ]
+}

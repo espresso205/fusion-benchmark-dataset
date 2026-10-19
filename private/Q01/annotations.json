@@ -1,0 +1,103 @@
+{
+  "provenance": "post-freeze automatic GT BRep-derived analytic diameter/count and axis-plane-span probes; NOT original independent drawing annotations; exploratory adaptation",
+  "gt_sha256": "633183f16dfbfb3f036a6c8a51e86dd7741fc8660c21f583b4b8d6fe81766a79",
+  "items": [
+    {
+      "id": "gt_plane_extent_x",
+      "type": "plane_pair",
+      "axis": "x",
+      "nominal": 120.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_y",
+      "type": "plane_pair",
+      "axis": "y",
+      "nominal": 90.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_plane_extent_z",
+      "type": "plane_pair",
+      "axis": "z",
+      "nominal": 18.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_cylinder_diameter_7.0",
+      "type": "cylinder",
+      "nominal": 7.0,
+      "tol": 0.01,
+      "count": 6
+    },
+    {
+      "id": "gt_cylinder_diameter_8.0",
+      "type": "cylinder",
+      "nominal": 8.0,
+      "tol": 0.01,
+      "count": 4
+    },
+    {
+      "id": "gt_cylinder_diameter_12.0",
+      "type": "cylinder",
+      "nominal": 12.0,
+      "tol": 0.01,
+      "count": 4
+    }
+  ],
+  "sections": [
+    {
+      "id": "gt_bbox_x_0.25",
+      "axis": "x",
+      "offset": -30.0
+    },
+    {
+      "id": "gt_bbox_x_0.5",
+      "axis": "x",
+      "offset": 0.0
+    },
+    {
+      "id": "gt_bbox_x_0.75",
+      "axis": "x",
+      "offset": 30.0
+    },
+    {
+      "id": "gt_bbox_y_0.25",
+      "axis": "y",
+      "offset": -22.5
+    },
+    {
+      "id": "gt_bbox_y_0.5",
+      "axis": "y",
+      "offset": 0.0
+    },
+    {
+      "id": "gt_bbox_y_0.75",
+      "axis": "y",
+      "offset": 22.5
+    },
+    {
+      "id": "gt_bbox_z_0.25",
+      "axis": "z",
+      "offset": 10.5
+    },
+    {
+      "id": "gt_bbox_z_0.5",
+      "axis": "z",
+      "offset": 15.0
+    },
+    {
+      "id": "gt_bbox_z_0.75",
+      "axis": "z",
+      "offset": 19.5
+    }
+  ],
+  "bbox_mm": [
+    -60.0,
+    -45.0,
+    6.0,
+    60.0,
+    45.0,
+    24.0
+  ]
+}

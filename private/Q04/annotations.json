@@ -1,0 +1,138 @@
+{
+  "provenance": "post-freeze automatic GT BRep-derived analytic diameter/count and axis-plane-span probes; NOT original independent drawing annotations; exploratory adaptation",
+  "gt_sha256": "14d913f1bfadc888e8b21198ff260e9d3db4a5b7b53f7b5d1784b8667aea6f38",
+  "items": [
+    {
+      "id": "gt_plane_extent_z",
+      "type": "plane_pair",
+      "axis": "z",
+      "nominal": 61.0,
+      "tol": 0.01
+    },
+    {
+      "id": "gt_cylinder_diameter_16.0",
+      "type": "cylinder",
+      "nominal": 16.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_20.0",
+      "type": "cylinder",
+      "nominal": 20.0,
+      "tol": 0.01,
+      "count": 2
+    },
+    {
+      "id": "gt_cylinder_diameter_22.0",
+      "type": "cylinder",
+      "nominal": 22.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_26.0",
+      "type": "cylinder",
+      "nominal": 26.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_36.0",
+      "type": "cylinder",
+      "nominal": 36.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_44.0",
+      "type": "cylinder",
+      "nominal": 44.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_46.0",
+      "type": "cylinder",
+      "nominal": 46.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_48.0",
+      "type": "cylinder",
+      "nominal": 48.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_56.0",
+      "type": "cylinder",
+      "nominal": 56.0,
+      "tol": 0.01,
+      "count": 1
+    },
+    {
+      "id": "gt_cylinder_diameter_60.0",
+      "type": "cylinder",
+      "nominal": 60.0,
+      "tol": 0.01,
+      "count": 1
+    }
+  ],
+  "sections": [
+    {
+      "id": "gt_bbox_x_0.25",
+      "axis": "x",
+      "offset": 8.0
+    },
+    {
+      "id": "gt_bbox_x_0.5",
+      "axis": "x",
+      "offset": 23.0
+    },
+    {
+      "id": "gt_bbox_x_0.75",
+      "axis": "x",
+      "offset": 38.0
+    },
+    {
+      "id": "gt_bbox_y_0.25",
+      "axis": "y",
+      "offset": -32.0
+    },
+    {
+      "id": "gt_bbox_y_0.5",
+      "axis": "y",
+      "offset": -17.0
+    },
+    {
+      "id": "gt_bbox_y_0.75",
+      "axis": "y",
+      "offset": -2.0
+    },
+    {
+      "id": "gt_bbox_z_0.25",
+      "axis": "z",
+      "offset": 7.250000000000123
+    },
+    {
+      "id": "gt_bbox_z_0.5",
+      "axis": "z",
+      "offset": 22.500000000000245
+    },
+    {
+      "id": "gt_bbox_z_0.75",
+      "axis": "z",
+      "offset": 37.75000000000037
+    }
+  ],
+  "bbox_mm": [
+    -7.0,
+    -47.0,
+    -8.0,
+    53.0,
+    13.0,
+    53.00000000000049
+  ]
+}

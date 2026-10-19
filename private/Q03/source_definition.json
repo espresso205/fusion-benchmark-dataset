@@ -1,0 +1,245 @@
+{
+  "taskId": "Q03",
+  "titleEn": "Stepped circular flange and indexed bolt pattern",
+  "titleZh": "阶梯中心孔与交错沉孔法兰",
+  "family": "circular_flange",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "cylinder",
+    "origin": [
+      15,
+      -12,
+      3
+    ],
+    "radius": 62,
+    "height": 18
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "central through bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          15,
+          -12,
+          2
+        ],
+        "radius": 16,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "stepped central recess",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          15,
+          -12,
+          15
+        ],
+        "radius": 25,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          61.0,
+          -12.0,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          47.526911934581186,
+          20.526911934581186,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          15.000000000000004,
+          34.0,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -17.526911934581186,
+          20.526911934581186,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -31.0,
+          -11.999999999999995,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -17.526911934581193,
+          -44.526911934581186,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14.999999999999991,
+          -58.0,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bolt circle through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          47.52691193458118,
+          -44.52691193458119,
+          2
+        ],
+        "radius": 3.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "alternating bolt counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          61.0,
+          -12.0,
+          14
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "alternating bolt counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          15.000000000000004,
+          34.0,
+          14
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "alternating bolt counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -31.0,
+          -11.999999999999995,
+          14
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "alternating bolt counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14.999999999999991,
+          -58.0,
+          14
+        ],
+        "radius": 6,
+        "height": 8
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "index locating hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -17,
+          -12,
+          2
+        ],
+        "radius": 2.5,
+        "height": 20
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "index locating hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          47,
+          -12,
+          2
+        ],
+        "radius": 2.5,
+        "height": 20
+      }
+    }
+  ]
+}

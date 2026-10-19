@@ -1,0 +1,245 @@
+{
+  "taskId": "Q02",
+  "titleEn": "Pocketed L mounting bracket",
+  "titleZh": "凹槽与沉孔组合 L 形支架",
+  "family": "l_bracket",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "polygon",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        110,
+        0
+      ],
+      [
+        110,
+        34
+      ],
+      [
+        44,
+        34
+      ],
+      [
+        44,
+        96
+      ],
+      [
+        0,
+        96
+      ]
+    ],
+    "z": -5,
+    "height": 16
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          12,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          32,
+          12,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          70,
+          12,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          96,
+          12,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          48,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          32,
+          48,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          80,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "through mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          32,
+          80,
+          -6
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          12,
+          6
+        ],
+        "radius": 5,
+        "height": 6
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          96,
+          12,
+          6
+        ],
+        "radius": 5,
+        "height": 6
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          80,
+          6
+        ],
+        "radius": 5,
+        "height": 6
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          32,
+          80,
+          6
+        ],
+        "radius": 5,
+        "height": 6
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "rectangular blind relief",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          54,
+          21,
+          3
+        ],
+        "size": [
+          42,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "long arm blind slot",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          22,
+          57
+        ],
+        "b": [
+          22,
+          67
+        ],
+        "radius": 4,
+        "z": 1,
+        "height": 11
+      }
+    }
+  ]
+}

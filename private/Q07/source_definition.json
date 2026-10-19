@@ -1,0 +1,242 @@
+{
+  "taskId": "Q07",
+  "titleEn": "Fork frame with pockets and counterbored arms",
+  "titleZh": "双叉臂沉孔凹槽框架",
+  "family": "fork_frame",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "polygon",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        100,
+        0
+      ],
+      [
+        100,
+        92
+      ],
+      [
+        72,
+        92
+      ],
+      [
+        72,
+        30
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        28,
+        92
+      ],
+      [
+        0,
+        92
+      ]
+    ],
+    "z": 0,
+    "height": 16
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14,
+          16,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14,
+          52,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14,
+          78,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          86,
+          16,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          86,
+          52,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm through hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          86,
+          78,
+          -1
+        ],
+        "radius": 3,
+        "height": 18
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "upper arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14,
+          52,
+          10
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "upper arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          14,
+          78,
+          10
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "upper arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          86,
+          52,
+          10
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "upper arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          86,
+          78,
+          10
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm rectangular blind pocket",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          7,
+          30,
+          9
+        ],
+        "size": [
+          14,
+          12,
+          8
+        ]
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "arm rectangular blind pocket",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          79,
+          30,
+          9
+        ],
+        "size": [
+          14,
+          12,
+          8
+        ]
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "bridge through capsule",
+      "shape": {
+        "kind": "capsule",
+        "a": [
+          40,
+          14
+        ],
+        "b": [
+          60,
+          14
+        ],
+        "radius": 4,
+        "z": -1,
+        "height": 18
+      }
+    }
+  ]
+}

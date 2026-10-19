@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "dataset_id": "fusion-benchmark-dataset-q01-q10-20261019",
+  "scope": "candidate inputs for authorized internal evaluation",
+  "cases": [
+    {
+      "case": "Q01",
+      "task": "Q01/TASK.md",
+      "drawing": "Q01/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "447e9cd56cd1b5bb2fbd86ecfaade660e3a5716df65851e52aca9e308d68df4a"
+      }
+    },
+    {
+      "case": "Q02",
+      "task": "Q02/TASK.md",
+      "drawing": "Q02/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "74b283a1982bb361721d9538166f9a36eda4fbd47a333aded0d3701dc6a9df3d"
+      }
+    },
+    {
+      "case": "Q03",
+      "task": "Q03/TASK.md",
+      "drawing": "Q03/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "59f162cc306d39278d7802d5473a40a5561e24d8a55e210a2356d6e57307b1b1"
+      }
+    },
+    {
+      "case": "Q04",
+      "task": "Q04/TASK.md",
+      "drawing": "Q04/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "bb3725519d150c7f1896ef1a9696160f861d7b04da55671c0ce367f7a45b549c"
+      }
+    },
+    {
+      "case": "Q05",
+      "task": "Q05/TASK.md",
+      "drawing": "Q05/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "f3130414330bd36ee99a7679c33edc3ff1209bb82eaec8f3ff463c1d4d40ca6e"
+      }
+    },
+    {
+      "case": "Q06",
+      "task": "Q06/TASK.md",
+      "drawing": "Q06/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "a65513e1250a5cfcb3f86ed93abaae2808b253a7acb887759b23685a7cda6644"
+      }
+    },
+    {
+      "case": "Q07",
+      "task": "Q07/TASK.md",
+      "drawing": "Q07/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "bd754dc169e99e4d085cac2fe6e05f406a6d4115f9be51f9fabe95f0499cf88b"
+      }
+    },
+    {
+      "case": "Q08",
+      "task": "Q08/TASK.md",
+      "drawing": "Q08/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "13dfe6ea24f3c9cdfc8c0d34848cea6d9ce87055f13a98692fa0fbee0ae1bf34"
+      }
+    },
+    {
+      "case": "Q09",
+      "task": "Q09/TASK.md",
+      "drawing": "Q09/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "0558326b38a347d5a13dfd018eeea36d45e0d8ab7dab2d3bcf3502fe021c643c"
+      }
+    },
+    {
+      "case": "Q10",
+      "task": "Q10/TASK.md",
+      "drawing": "Q10/drawing.dxf",
+      "expected_hashes": {
+        "task": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+        "drawing": "a734aee89f2df1192e61cab5463b77b880216cf51cd2181ac4e94df4131e41e6"
+      }
+    }
+  ]
+}

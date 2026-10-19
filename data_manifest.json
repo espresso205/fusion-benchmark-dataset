@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "dataset_id": "fusion-benchmark-dataset-q01-q10-20261019",
+  "source_dataset": "complex-single-view-challenge / 2026-09-16-v1",
+  "partition_semantics": "administrator private repository; public/ means candidate-readable inputs, not public redistribution permission",
+  "annotation_kind": "gt_derived_probe",
+  "coordinate_frame": "fixed_world_mm",
+  "license_status": "unconfirmed; original SOURCE LICENSE UNKNOWN statement retained; no new license granted",
+  "trusted_mapping_record": {
+    "logical_name": "cases_agent_submission_20261018.json",
+    "sha256": "5887780dd5a35b07d3cdde07bd6aa26597dc4a7acdbee0d606996949a98e9c86",
+    "retained_fields": "case, gt hash, annotations hash; no candidate or historical-results fields copied"
+  },
+  "cases": [
+    {
+      "case": "Q01",
+      "public": {
+        "task": "public/Q01/TASK.md",
+        "drawing": "public/Q01/drawing.dxf"
+      },
+      "gt": "private/Q01/gt.step",
+      "annotations": "private/Q01/annotations.json",
+      "expected_hashes": {
+        "gt": "633183f16dfbfb3f036a6c8a51e86dd7741fc8660c21f583b4b8d6fe81766a79",
+        "annotations": "0e87037819a42eb77d2bd58e62941e436224ce8569276ebbf3ce448bbb636fd8"
+      },
+      "source_definition": "private/Q01/source_definition.json",
+      "view_contract": "private/Q01/view_contract.json"
+    },
+    {
+      "case": "Q02",
+      "public": {
+        "task": "public/Q02/TASK.md",
+        "drawing": "public/Q02/drawing.dxf"
+      },
+      "gt": "private/Q02/gt.step",
+      "annotations": "private/Q02/annotations.json",
+      "expected_hashes": {
+        "gt": "ccc1d3e4d30140cf51ee4aa07652574a1af8d9343482be44fa72649823e810cc",
+        "annotations": "f101c7c8bd0fc860ae7a98ab2d93edb3172b927f8bdaac1dbdcedd5243078081"
+      },
+      "source_definition": "private/Q02/source_definition.json",
+      "view_contract": "private/Q02/view_contract.json"
+    },
+    {
+      "case": "Q03",
+      "public": {
+        "task": "public/Q03/TASK.md",
+        "drawing": "public/Q03/drawing.dxf"
+      },
+      "gt": "private/Q03/gt.step",
+      "annotations": "private/Q03/annotations.json",
+      "expected_hashes": {
+        "gt": "505482f345d6f83583eaaae6dcf13ddd8773a7c8b54964480958a06206882d51",
+        "annotations": "fd0d9bbbd3d29320976abdf2b689f6583cf58e46a5aae7c23c71ede20d621c84"
+      },
+      "source_definition": "private/Q03/source_definition.json",
+      "view_contract": "private/Q03/view_contract.json"
+    },
+    {
+      "case": "Q04",
+      "public": {
+        "task": "public/Q04/TASK.md",
+        "drawing": "public/Q04/drawing.dxf"
+      },
+      "gt": "private/Q04/gt.step",
+      "annotations": "private/Q04/annotations.json",
+      "expected_hashes": {
+        "gt": "14d913f1bfadc888e8b21198ff260e9d3db4a5b7b53f7b5d1784b8667aea6f38",
+        "annotations": "2ce625884731d004b7dbca6c86287994cafa688a16fd6249b8b277c0d270a43f"
+      },
+      "source_definition": "private/Q04/source_definition.json",
+      "view_contract": "private/Q04/view_contract.json"
+    },
+    {
+      "case": "Q05",
+      "public": {
+        "task": "public/Q05/TASK.md",
+        "drawing": "public/Q05/drawing.dxf"
+      },
+      "gt": "private/Q05/gt.step",
+      "annotations": "private/Q05/annotations.json",
+      "expected_hashes": {
+        "gt": "8f86a3620448e18b25ee1e04713ff88a627b09cb96fcc6910690ac53ecb9763d",
+        "annotations": "cd2ec8acebcdc184242b9b1f98c758437cc001985592a5588e2ca5cf0ff7fd1d"
+      },
+      "source_definition": "private/Q05/source_definition.json",
+      "view_contract": "private/Q05/view_contract.json"
+    },
+    {
+      "case": "Q06",
+      "public": {
+        "task": "public/Q06/TASK.md",
+        "drawing": "public/Q06/drawing.dxf"
+      },
+      "gt": "private/Q06/gt.step",
+      "annotations": "private/Q06/annotations.json",
+      "expected_hashes": {
+        "gt": "a257b78b686183602aba1a36f11a37e325d9ed9692fa07139d001b6ca6d5eafb",
+        "annotations": "9065313a4bd73053ad26d254f4cd5ad5ec31673442fa238f6b86270fb5d6774f"
+      },
+      "source_definition": "private/Q06/source_definition.json",
+      "view_contract": "private/Q06/view_contract.json"
+    },
+    {
+      "case": "Q07",
+      "public": {
+        "task": "public/Q07/TASK.md",
+        "drawing": "public/Q07/drawing.dxf"
+      },
+      "gt": "private/Q07/gt.step",
+      "annotations": "private/Q07/annotations.json",
+      "expected_hashes": {
+        "gt": "160c34cc490c2bb56c9c1f564513cbd548de960bd774c0d891df146afa7d5375",
+        "annotations": "45443d748031ecb8e2c72a5694bd587dcbab2bdabb3f0d18e6654ca5c76e797d"
+      },
+      "source_definition": "private/Q07/source_definition.json",
+      "view_contract": "private/Q07/view_contract.json"
+    },
+    {
+      "case": "Q08",
+      "public": {
+        "task": "public/Q08/TASK.md",
+        "drawing": "public/Q08/drawing.dxf"
+      },
+      "gt": "private/Q08/gt.step",
+      "annotations": "private/Q08/annotations.json",
+      "expected_hashes": {
+        "gt": "80ef8eb23c684ac4d3a17bda5911b4392c2afe42afbdb3901a50cfad9a14256c",
+        "annotations": "f57dc60bb60bfc8b419c542183957dca4e5846ce24132c7b2f223c0ba6f5e8c2"
+      },
+      "source_definition": "private/Q08/source_definition.json",
+      "view_contract": "private/Q08/view_contract.json"
+    },
+    {
+      "case": "Q09",
+      "public": {
+        "task": "public/Q09/TASK.md",
+        "drawing": "public/Q09/drawing.dxf"
+      },
+      "gt": "private/Q09/gt.step",
+      "annotations": "private/Q09/annotations.json",
+      "expected_hashes": {
+        "gt": "df103729778fc2e6b49f39b30e97d808b339a43304077e36a81707915a957698",
+        "annotations": "aed671951656eee5a54d76a5f4a19d9d8c4f40e7af3f1cd3df60bd47d7a3104a"
+      },
+      "source_definition": "private/Q09/source_definition.json",
+      "view_contract": "private/Q09/view_contract.json"
+    },
+    {
+      "case": "Q10",
+      "public": {
+        "task": "public/Q10/TASK.md",
+        "drawing": "public/Q10/drawing.dxf"
+      },
+      "gt": "private/Q10/gt.step",
+      "annotations": "private/Q10/annotations.json",
+      "expected_hashes": {
+        "gt": "595b3125a957afdf6a85e4ed23344ad97a526a080086e13aeb2fecff4bf9a227",
+        "annotations": "1a8a2a025ee6ea1dfc1cf4959d32e0587245e7de8677711aad1df20dab00b206"
+      },
+      "source_definition": "private/Q10/source_definition.json",
+      "view_contract": "private/Q10/view_contract.json"
+    }
+  ],
+  "files": [
+    {
+      "path": "private/Q01/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q01/annotations.json",
+      "bytes": 2042,
+      "sha256": "0e87037819a42eb77d2bd58e62941e436224ce8569276ebbf3ce448bbb636fd8",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q01/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q01/feature_manifest.json",
+      "bytes": 1354095,
+      "sha256": "a35a861c9e9d896a43f38d24927e18ff02f80a1d4fd7745f1f0590bb186ccab8",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q01/gt.step",
+      "bytes": 76362,
+      "sha256": "633183f16dfbfb3f036a6c8a51e86dd7741fc8660c21f583b4b8d6fe81766a79",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q01/source_definition.json",
+      "bytes": 3824,
+      "sha256": "6a89f5b718c89ee7f4dc2bc6b28db56a912cd4dfedf4d7b6eb6091e61e493294",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q01/view_contract.json",
+      "bytes": 757,
+      "sha256": "e72826df0b7abf0949d3dbf8678d6b43386a80004bb4eb01d282f404069d6cb0",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q02/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/annotations.json",
+      "bytes": 2038,
+      "sha256": "f101c7c8bd0fc860ae7a98ab2d93edb3172b927f8bdaac1dbdcedd5243078081",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q02/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/feature_manifest.json",
+      "bytes": 1711893,
+      "sha256": "6209aa77b2afbbf6ceefc1457565a0a20dfd1e7f0d3d2afe7fc2d348378a27ee",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q02/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/gt.step",
+      "bytes": 100043,
+      "sha256": "ccc1d3e4d30140cf51ee4aa07652574a1af8d9343482be44fa72649823e810cc",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q02/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/source_definition.json",
+      "bytes": 4282,
+      "sha256": "d7c0f3f2af494aac8cd4935eab664aac6649eff40ce05e96b1d74ccecdf2ea36",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q02/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q02/view_contract.json",
+      "bytes": 759,
+      "sha256": "adceb037ba505d7c9b8e8d401883b1abffc8267dc544fd33335e872e32a46621",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q02/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q03/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/annotations.json",
+      "bytes": 2201,
+      "sha256": "fd0d9bbbd3d29320976abdf2b689f6583cf58e46a5aae7c23c71ede20d621c84",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q03/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/feature_manifest.json",
+      "bytes": 1188478,
+      "sha256": "b1a78463a85283d93336f1e637f3be2df4166a7ab97903de261625494b10e8a8",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q03/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/gt.step",
+      "bytes": 66573,
+      "sha256": "505482f345d6f83583eaaae6dcf13ddd8773a7c8b54964480958a06206882d51",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q03/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/source_definition.json",
+      "bytes": 4892,
+      "sha256": "5c8d45abcf3a0ec882216c7bf20fbee1dbfd013c3cefcc96b6d7e99115a23e62",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q03/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q03/view_contract.json",
+      "bytes": 757,
+      "sha256": "a994304f9b79fb9d76ebb2446aba9ba64efeee94589a08d3f6fd687235466526",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q03/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q04/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/annotations.json",
+      "bytes": 2839,
+      "sha256": "2ce625884731d004b7dbca6c86287994cafa688a16fd6249b8b277c0d270a43f",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q04/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/feature_manifest.json",
+      "bytes": 980632,
+      "sha256": "aae95e73b7ef463cebf07d0ebc8de7660c3936cdda81a078ef7d8c6726508db3",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q04/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/gt.step",
+      "bytes": 55094,
+      "sha256": "14d913f1bfadc888e8b21198ff260e9d3db4a5b7b53f7b5d1784b8667aea6f38",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q04/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/source_definition.json",
+      "bytes": 5493,
+      "sha256": "223526c87150db00a3886325fdf79512cf0c90541972c4224ced410e354ed303",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q04/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q04/view_contract.json",
+      "bytes": 776,
+      "sha256": "b5d2573b2ec1878cf7a27919b7ddc1954c5f05781cf26c600d9b4c0bada42385",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q04/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q05/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/annotations.json",
+      "bytes": 1896,
+      "sha256": "cd2ec8acebcdc184242b9b1f98c758437cc001985592a5588e2ca5cf0ff7fd1d",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q05/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/feature_manifest.json",
+      "bytes": 1346540,
+      "sha256": "5ccda6e3efc08142023e9089e3e6d331a0155c3a1c6251091e9376d2626da087",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q05/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/gt.step",
+      "bytes": 81163,
+      "sha256": "8f86a3620448e18b25ee1e04713ff88a627b09cb96fcc6910690ac53ecb9763d",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q05/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/source_definition.json",
+      "bytes": 3454,
+      "sha256": "9b6b4f5322ed57fcd083c5dba0df6d7736f7c3881ae9a2e0b469f83722455557",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q05/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q05/view_contract.json",
+      "bytes": 754,
+      "sha256": "8c9b10a2e1e6e2fb5227f331cc1b2810faa24d48c4f7cb273ba278565ba70040",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q05/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q06/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/annotations.json",
+      "bytes": 1917,
+      "sha256": "9065313a4bd73053ad26d254f4cd5ad5ec31673442fa238f6b86270fb5d6774f",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q06/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/feature_manifest.json",
+      "bytes": 1455861,
+      "sha256": "8c0d10a8373efd7ec951827df34fc8ea58d53a0fef5769a0e02a48c61d23eec2",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q06/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/gt.step",
+      "bytes": 97814,
+      "sha256": "a257b78b686183602aba1a36f11a37e325d9ed9692fa07139d001b6ca6d5eafb",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q06/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/source_definition.json",
+      "bytes": 3543,
+      "sha256": "579133f0fd133e256cdf7ab647f96427a13db4cb7a471d7b4ecd1768f402af51",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q06/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q06/view_contract.json",
+      "bytes": 787,
+      "sha256": "05ebf4c09d5cd509c922ce3f2a4dbf8515360c7993bd4dbdbb66bfd0326a5bfd",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q06/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q07/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/annotations.json",
+      "bytes": 2050,
+      "sha256": "45443d748031ecb8e2c72a5694bd587dcbab2bdabb3f0d18e6654ca5c76e797d",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q07/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/feature_manifest.json",
+      "bytes": 1923280,
+      "sha256": "541fd51828ece7721901ed00164ae2559df3ab2fb458c543e404d1278068113d",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q07/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/gt.step",
+      "bytes": 112923,
+      "sha256": "160c34cc490c2bb56c9c1f564513cbd548de960bd774c0d891df146afa7d5375",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q07/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/source_definition.json",
+      "bytes": 4175,
+      "sha256": "e8651c6c1c6d3bcf6fecfaeeafcf0ccd152356a049b27b595c6793583a114664",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q07/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q07/view_contract.json",
+      "bytes": 757,
+      "sha256": "b4dd52def03c54976a1a4229aa299935d74e73f9357bb2099b1e0b8bb3a0b716",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q07/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q08/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/annotations.json",
+      "bytes": 2189,
+      "sha256": "f57dc60bb60bfc8b419c542183957dca4e5846ce24132c7b2f223c0ba6f5e8c2",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q08/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/feature_manifest.json",
+      "bytes": 2014996,
+      "sha256": "0e8e70c64e8c6427d2d601e1bdc0ba7073b340e9988ecebc14d37a766f88d70b",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q08/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/gt.step",
+      "bytes": 116009,
+      "sha256": "80ef8eb23c684ac4d3a17bda5911b4392c2afe42afbdb3901a50cfad9a14256c",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q08/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/source_definition.json",
+      "bytes": 5149,
+      "sha256": "57288dcc36da75bb7b9bd13b063bdb741d8fc1a638d7baf5e992c68fb81e1685",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q08/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q08/view_contract.json",
+      "bytes": 761,
+      "sha256": "039d57f220499f6f9ee5cab55577b6b6cd444f5629d96e4d08afa5a3c1a73079",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q08/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q09/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/annotations.json",
+      "bytes": 2043,
+      "sha256": "aed671951656eee5a54d76a5f4a19d9d8c4f40e7af3f1cd3df60bd47d7a3104a",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q09/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/feature_manifest.json",
+      "bytes": 2276077,
+      "sha256": "21596e3587668ca04080664cd9114aebd30b8787173b91d31732f932e84d4965",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q09/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/gt.step",
+      "bytes": 135650,
+      "sha256": "df103729778fc2e6b49f39b30e97d808b339a43304077e36a81707915a957698",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q09/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/source_definition.json",
+      "bytes": 4340,
+      "sha256": "1c0e4cdec9e488d4b2e45fb10254c90f1973eb0bcd6c9ac46ce34d0b1b4c55fa",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q09/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q09/view_contract.json",
+      "bytes": 757,
+      "sha256": "602ee539d600fc5fc3fbcec851c961027d87b7043ff5f47a78a947479740f041",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q09/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q10/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/annotations.json",
+      "bytes": 2336,
+      "sha256": "1a8a2a025ee6ea1dfc1cf4959d32e0587245e7de8677711aad1df20dab00b206",
+      "source_root": "gt_derived_annotations_20261017",
+      "source_relative": "Q10/annotations.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/feature_manifest.json",
+      "bytes": 1971668,
+      "sha256": "4ba742d987b839fcc644b758589201ff9f1e8416a2eb19b32e4e891e86499ad0",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q10/conversion/feature_manifest.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/gt.step",
+      "bytes": 113360,
+      "sha256": "595b3125a957afdf6a85e4ed23344ad97a526a080086e13aeb2fecff4bf9a227",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q10/conversion/source.step",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/source_definition.json",
+      "bytes": 4950,
+      "sha256": "aa1774eaf9429e22999f1f8c509954087cb2ae8dc0ed6dc5cdc7d10cf371cfe1",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q10/source_definition.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/Q10/view_contract.json",
+      "bytes": 757,
+      "sha256": "ec2deada6eaa87edec2157c88592133d2e34e17e78bb49a1a57434ce57550338",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q10/conversion/view_contract.json",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/benchmark_certify.py",
+      "bytes": 8062,
+      "sha256": "be81e3838e68ef8fa6ea7811a9647cf7ee5f3816767ae2db449bd86e4a448deb",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/benchmark_certify.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/benchmark_contract.py",
+      "bytes": 8106,
+      "sha256": "195b41fb066282608064b29b6a5590ec140933b2d6e1190f84bcc72ea7a6d229",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/benchmark_contract.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/benchmark_package.py",
+      "bytes": 12135,
+      "sha256": "cfe64e710da7e3710da7ef7403a50febbd3dfa8643673e5214a1d70eb21a615a",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/benchmark_package.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/brep_roundtrip.py",
+      "bytes": 15289,
+      "sha256": "49c99b6428cf0b9ff0eaba7e770d618eed033ac8a64ec84d38d15a0e4779bce7",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/brep_roundtrip.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/challenge_generator.py",
+      "bytes": 20453,
+      "sha256": "80fd27e0814fa9f44feebee008b769e843515114dceb609f66cebd65f3903461",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/challenge_generator.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/requirements.original.lock.txt",
+      "bytes": 138,
+      "sha256": "71af81503a48d35dcd63655f82ea232ba3ca8db7ae7b91ee48e0b6d843c7178a",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "requirements.lock.txt",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/semantic_dxf_rebuild.py",
+      "bytes": 14402,
+      "sha256": "d92b012113183342e5680017ee67645495982e9bf358957654377649d40e491e",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/semantic_dxf_rebuild.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_annotation_layout.py",
+      "bytes": 4147,
+      "sha256": "419ca6e758ee2334fded8df2db53a2bb5507285f2bce5508daa851ff4c208f8e",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_annotation_layout.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_axial_sections.py",
+      "bytes": 5120,
+      "sha256": "1c49ffbdf9ce15b2f13db509032befa5d6cf8c2eef4a0f02aaf418570828d6ad",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_axial_sections.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_bindings.py",
+      "bytes": 36000,
+      "sha256": "7ddc66f022acb49b64d907172fb910ee640fa64fc8234f76eba4fc89636c56c0",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_bindings.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_curve_semantics.py",
+      "bytes": 3018,
+      "sha256": "daaa6371fcabd3d9436ae6efb26b670a6ae92ec8eaaa132f3c2032e85a895701",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_curve_semantics.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_depth_regions.py",
+      "bytes": 11345,
+      "sha256": "28d45ef406f874bd59aace78721090cc45619cb8efe4b0feea417b52c43d37e0",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_depth_regions.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_metadata.py",
+      "bytes": 16444,
+      "sha256": "bfc289d917d0217bb6bab24eafe596ef613b872d23a13d383d22005b7857d868",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_metadata.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_rich_annotations.py",
+      "bytes": 5542,
+      "sha256": "1784fbf1da538ab82e2cb923fa37d94c3ccb86aa01d391dd3ca32343d1851477",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_rich_annotations.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_surface_semantics.py",
+      "bytes": 5227,
+      "sha256": "4a13c63ce3260efadfb096db525070598441dfcac4fda2c3010aaa042d141610",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_surface_semantics.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_to_dxf.py",
+      "bytes": 51808,
+      "sha256": "968393c69619f3736952389d0bbf0a1b1b395f737bf0a1fcb577684864754e54",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_to_dxf.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "private/_sources/step_topology.py",
+      "bytes": 11562,
+      "sha256": "3c05907e6555c369f6de62bf2fa8667fbbe8406c0459ce5e432ef5e42e15c90f",
+      "source_root": "singleview_benchmark_v2_source_snapshot",
+      "source_relative": "src/step_topology.py",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/INSTRUCTIONS.md",
+      "bytes": 940,
+      "sha256": "dda88f5a13dc9f0458f69e6d1dd093cdc37e29996efd4cd43076064a154f5581",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/README.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q01/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q01/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q01/drawing.dxf",
+      "bytes": 66473,
+      "sha256": "447e9cd56cd1b5bb2fbd86ecfaade660e3a5716df65851e52aca9e308d68df4a",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q01/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q02/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q02/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q02/drawing.dxf",
+      "bytes": 68219,
+      "sha256": "74b283a1982bb361721d9538166f9a36eda4fbd47a333aded0d3701dc6a9df3d",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q02/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q03/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q03/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q03/drawing.dxf",
+      "bytes": 67532,
+      "sha256": "59f162cc306d39278d7802d5473a40a5561e24d8a55e210a2356d6e57307b1b1",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q03/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q04/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q04/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q04/drawing.dxf",
+      "bytes": 57296,
+      "sha256": "bb3725519d150c7f1896ef1a9696160f861d7b04da55671c0ce367f7a45b549c",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q04/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q05/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q05/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q05/drawing.dxf",
+      "bytes": 59918,
+      "sha256": "f3130414330bd36ee99a7679c33edc3ff1209bb82eaec8f3ff463c1d4d40ca6e",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q05/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q06/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q06/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q06/drawing.dxf",
+      "bytes": 61534,
+      "sha256": "a65513e1250a5cfcb3f86ed93abaae2808b253a7acb887759b23685a7cda6644",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q06/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q07/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q07/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q07/drawing.dxf",
+      "bytes": 67248,
+      "sha256": "bd754dc169e99e4d085cac2fe6e05f406a6d4115f9be51f9fabe95f0499cf88b",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q07/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q08/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q08/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q08/drawing.dxf",
+      "bytes": 68875,
+      "sha256": "13dfe6ea24f3c9cdfc8c0d34848cea6d9ce87055f13a98692fa0fbee0ae1bf34",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q08/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q09/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q09/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q09/drawing.dxf",
+      "bytes": 72151,
+      "sha256": "0558326b38a347d5a13dfd018eeea36d45e0d8ab7dab2d3bcf3502fe021c643c",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q09/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q10/TASK.md",
+      "bytes": 626,
+      "sha256": "c665a8d7337ca9983648e0339c6cdbd70db263ab169c48f05fa6cfbc102303af",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q10/TASK.md",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/Q10/drawing.dxf",
+      "bytes": 70725,
+      "sha256": "a734aee89f2df1192e61cab5463b77b880216cf51cd2181ac4e94df4131e41e6",
+      "source_root": "challenge_20260916",
+      "source_relative": "agent_questions/Q10/drawing.dxf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "public/SOURCE_LICENSE.txt",
+      "bytes": 165,
+      "sha256": "79702fee420c9e8a28ea55d97a447174e1f098622284132ce1289fd1e686b0d5",
+      "source_root": "challenge_20260916",
+      "source_relative": "examiner_bundle/Q01/conversion/LICENSE.txt",
+      "transformation": "none; byte-for-byte copy"
+    }
+  ]
+}

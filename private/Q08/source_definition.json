@@ -1,0 +1,293 @@
+{
+  "taskId": "Q08",
+  "titleEn": "Cross manifold with opposite-side relief",
+  "titleZh": "十字多深度腔体与底面凹槽",
+  "family": "cross_manifold",
+  "sourceRole": "locally_constructed_analytic_challenge",
+  "unit": "mm",
+  "viewAxis": "Z",
+  "base": {
+    "kind": "polygon",
+    "points": [
+      [
+        -22,
+        -60
+      ],
+      [
+        22,
+        -60
+      ],
+      [
+        22,
+        -22
+      ],
+      [
+        66,
+        -22
+      ],
+      [
+        66,
+        22
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        22,
+        60
+      ],
+      [
+        -22,
+        60
+      ],
+      [
+        -22,
+        22
+      ],
+      [
+        -66,
+        22
+      ],
+      [
+        -66,
+        -22
+      ],
+      [
+        -22,
+        -22
+      ]
+    ],
+    "z": -11,
+    "height": 22
+  },
+  "operations": [
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -12,
+          -44,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -12,
+          44,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          -44,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          44,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -48,
+          -12,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -48,
+          12,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          48,
+          -12,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "cross-arm mounting hole",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          48,
+          12,
+          -12
+        ],
+        "radius": 3,
+        "height": 24
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "vertical arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -12,
+          -44,
+          5
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "vertical arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -12,
+          44,
+          5
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "vertical arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          -44,
+          5
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "vertical arm counterbore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          12,
+          44,
+          5
+        ],
+        "radius": 5,
+        "height": 7
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "central blind chamber",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          0,
+          0,
+          -2
+        ],
+        "radius": 13,
+        "height": 14
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "side locating blind bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          -35,
+          0,
+          -5
+        ],
+        "radius": 4,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "side locating blind bore",
+      "shape": {
+        "kind": "cylinder",
+        "origin": [
+          35,
+          0,
+          -5
+        ],
+        "radius": 4,
+        "height": 17
+      }
+    },
+    {
+      "action": "cut",
+      "feature": "underside rectangular relief",
+      "shape": {
+        "kind": "box",
+        "origin": [
+          -9,
+          -36,
+          -12
+        ],
+        "size": [
+          18,
+          12,
+          7
+        ]
+      }
+    }
+  ]
+}
