@@ -12,12 +12,14 @@ data_manifest.json   相对路径、来源位置、文件大小和 SHA256
 scripts/             标准库校验/配置工具，另有可选几何重建入口
 ```
 
-普通使用只需 Python 3.10 或更高版本，不依赖 Fusion、OCCT 或网络：
+普通使用只需 Python 3.10 或更高版本，不依赖 Fusion、OCCT 或网络。可以直接使用任一已解压便携插件包或评分器包中的 `runtime/python/python.exe`，无需额外安装 Python：
 
 ```powershell
 python scripts/verify_dataset.py
 python scripts/prepare_config.py --output local/private_cases.json
 ```
+
+使用便携解释器时，将以上 `python` 替换为该包中 `runtime/python/python.exe` 的完整路径；脚本也可用完整路径从任意工作目录调用。
 
 生成的配置使用这台机器的绝对路径，可交给评分器的 private-cases 入口；不含候选答案或历史成绩。移动仓库后重新生成即可。详见 [DATASET_USAGE.md](DATASET_USAGE.md)。
 

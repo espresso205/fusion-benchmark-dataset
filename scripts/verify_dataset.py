@@ -3,6 +3,10 @@ import argparse
 import json
 from pathlib import Path
 import re
+import sys
+
+# Embeddable CPython may omit the script directory because of its isolated ._pth.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dataset_utils import load_verified_manifest, resolve_data_path, sha256
 
 

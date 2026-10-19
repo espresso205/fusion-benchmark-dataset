@@ -2,6 +2,13 @@
 
 ## 管理员首次使用
 
+无需另装 Python：可以直接使用任一已解压便携插件包或评分器包内的 `runtime/python/python.exe`。下列示例中的 `python` 可替换为该解释器的完整路径；脚本会按自身位置找到数据仓库，不依赖当前工作目录。例如在 PowerShell 中：
+
+```powershell
+& "<便携包>/runtime/python/python.exe" "<数据仓库>/scripts/verify_dataset.py"
+& "<便携包>/runtime/python/python.exe" "<数据仓库>/scripts/prepare_config.py" --output "<管理员目录>/private_cases.json"
+```
+
 1. 将管理员仓库或管理员 ZIP 放在考生无法访问的位置。
 2. 用 `python scripts/verify_dataset.py` 验证所有保留来源文件的 SHA256、标注与 GT 的绑定，以及考生分区的允许文件列表。
 3. 用 `python scripts/prepare_config.py --output local/private_cases.json` 生成本机配置。`local/` 不进入 Git 或发布 ZIP。
